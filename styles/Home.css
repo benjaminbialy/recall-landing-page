@@ -1,0 +1,46 @@
+.home {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.home--recent {
+	margin: 2% 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.home--recent--sets {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 85%;
+	margin-bottom: 10vh;
+}
+.home--recent--title {
+	align-self: start;
+	margin: 0 8%;
+	font-size: 28px;
+}
+.home--banner {
+	display: flex;
+	width: 75%;
+	padding: 40px;
+	border-radius: 30px;
+	text-align: center;
+	background-color: var(--background);
+	margin: 4% 0 2% 0;
+	flex-direction: column;
+}
+.home--banner p {
+	margin: 8px 0;
+}
+.hover {
+	cursor: pointer;
+}
+.link {
+	text-decoration: none;
+	color: inherit;
+}
+.home--banner--title {
+	font-size: 22px;
+}

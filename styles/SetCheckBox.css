@@ -1,0 +1,20 @@
+.setcheckbox {
+	/* background-color: turquoise; */
+	margin: 15px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.setcheckbox--label {
+	font-size: 24px;
+	line-height: 40px;
+}
+.setcheckbox--input {
+	width: 40px;
+	height: 40px;
+	margin: 0;
+	cursor: pointer;
+}
+.setcheckbox--input:checked {
+	accent-color: var(--primary);
+}

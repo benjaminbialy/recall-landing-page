@@ -1,0 +1,22 @@
+.flashcard {
+	cursor: pointer;
+	height: 300px;
+	max-height: 300px;
+	overflow-y: scroll;
+	width: 600px;
+	padding: 50px;
+	border-radius: 50px;
+	box-shadow: 0px 0px 20px 2px rgb(218, 216, 216);
+	transition: all 0.2s ease-in-out;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	text-align: center;
+	background-color: var(--background);
+}
+.flashcard:hover {
+	box-shadow: 0px 0px 20px 2px var(--accent);
+	transition: all 0.2s ease-in-out;
+}

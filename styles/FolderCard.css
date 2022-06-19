@@ -1,0 +1,33 @@
+.foldercard {
+	background-color: var(--background);
+	height: 120px;
+	width: 85%;
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	justify-content: space-between;
+	color: inherit;
+	padding: 20px;
+	border-radius: 25px;
+	box-shadow: 0px 0px 20px 2px var(--secondarybkg);
+	margin: 10px;
+	transition: all 0.4s ease-in-out;
+}
+.foldercard h4,
+.foldercard p {
+	width: 300px;
+	margin: 0;
+}
+.foldercard--name {
+	font-size: 22px;
+	font-weight: 900;
+}
+.foldercard--terms {
+	color: var(--accent);
+	font-size: 15px;
+	font-weight: 900;
+}
+.foldercard:hover {
+	box-shadow: 0px 0px 25px 3px var(--accent);
+	transition: all 0.4s ease-in-out;
+}

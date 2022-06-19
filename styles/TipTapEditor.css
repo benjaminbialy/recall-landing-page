@@ -1,0 +1,46 @@
+.editor {
+	font-size: 18px;
+	font-family: "Poppins";
+	color: var(--primary);
+	padding: 0;
+	border-width: 0 0 1px 0;
+}
+.editor--menu {
+	display: flex;
+	height: 40px;
+}
+.editor--menu button {
+	color: var(--background);
+	padding: 10px;
+	border-radius: 15px;
+	text-decoration: none;
+	background-color: var(--primary);
+	transition: all 0.3s ease-in-out;
+	width: 90px;
+	text-align: center;
+	border: none;
+	font-family: "Poppins";
+	font-size: 14px;
+	margin: 0;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.editor--menu button:hover {
+	background-color: var(--accent);
+}
+.ProseMirror {
+	outline: 0;
+}
+.ProseMirror-focused {
+	border-bottom-color: var(--accent) !important;
+}
+.ProseMirror * {
+	margin: 0;
+}
+.ProseMirror p.is-editor-empty:first-child::before {
+	color: grey;
+	content: attr(data-placeholder);
+	float: left;
+	height: 0;
+	pointer-events: none;
+}

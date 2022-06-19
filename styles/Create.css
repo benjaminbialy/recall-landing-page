@@ -1,0 +1,40 @@
+.create--links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+}
+.create--links--button {
+	display: block;
+	background-color: var(--accent);
+	padding: 12px;
+	border-radius: 15px;
+	text-decoration: none;
+	color: var(--primary);
+	transition: all 0.2s ease-in-out;
+	width: 250px;
+	text-align: center;
+}
+.create--links--button:hover {
+	background-color: var(--primary);
+	transition: all 0.2s ease-in-out;
+	color: #fff;
+}
+.create--links--title {
+	color: var(--accent);
+	font-weight: 900;
+}
+.create--links--desc {
+	width: 450px;
+}
+.create--links--section {
+	margin: 0 50px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--background);
+	padding: 40px 40px;
+	border-radius: 25px;
+}

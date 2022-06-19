@@ -1,0 +1,155 @@
+.createset {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100vw;
+}
+.createset--terms {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.createset--form {
+	width: 100vw;
+}
+.createset--heading {
+	align-self: flex-start;
+}
+.createset--form--header {
+	display: flex;
+	/* background-color: thistle; */
+	justify-content: space-between;
+}
+.createset--form--heading--header {
+	display: flex;
+	justify-content: space-between;
+}
+.createset--form--heading--header--heading {
+	display: flex;
+	flex-direction: column;
+	margin: 50px;
+	font-size: 30px;
+}
+.createset--form--header--btn {
+	background-color: var(--primary);
+	padding: 10px;
+	border-radius: 20px;
+	text-decoration: none;
+	color: #fff;
+	transition: all 0.2s ease-in-out;
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	border: none;
+	font-family: "Poppins";
+	font-size: 18px;
+	margin: 50px 80px;
+}
+.createset--form--header--btn:hover {
+	background-color: var(--accent);
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+.createset--form--titleinput {
+	display: flex;
+	margin: 50px 75px 0 75px;
+	width: calc(100% - 150px);
+	padding: 0;
+	height: 30px;
+	font-size: 24px;
+	line-height: 28px;
+	font-family: "Poppins";
+	color: var(--primary);
+	border-style: none;
+	border-bottom: 2px solid var(--primary);
+	padding-bottom: 1px;
+	background-color: var(--secondarybkg);
+}
+.createset--form--titleinput::placeholder {
+	color: var(--primary);
+}
+.createset--form--titleinput:focus {
+	outline: none;
+	padding: 0;
+	border-bottom: 3px solid var(--accent);
+}
+.createset--form--description {
+	resize: none;
+	box-sizing: border-box;
+	font-size: 18px;
+	width: 48.5%;
+	max-width: 48.5%;
+	height: 28px;
+	line-height: 26px;
+	border: none;
+	border-bottom: 2px solid var(--primary);
+	font-family: "Poppins";
+	color: var(--primary);
+	background-color: var(--secondarybkg);
+}
+.createset--form--description:focus {
+	border-bottom: 3px solid var(--accent);
+}
+.createset--form--lower {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin: 40px 80px 80px 80px;
+}
+.createset--form--lower--vis {
+	height: 32px;
+	display: flex;
+	background-color: var(--secondarybkg);
+}
+.createset--form--lower--vis--select {
+	border: none;
+	font-size: 18px;
+	padding: 6px;
+	color: var(--accent);
+	background-color: var(--secondarybkg);
+}
+.createset--form--lower--vis--select:focus {
+	outline: none;
+}
+.createset--form--lower--vis--label {
+	color: var(--primary);
+	font-size: 18px;
+	margin-top: 4px;
+}
+.createset--add {
+	background-color: var(--primary);
+	padding: 12px;
+	border-radius: 20px;
+	text-decoration: none;
+	color: #fff;
+	transition: all 0.2s ease-in-out;
+	width: 250px;
+	text-align: center;
+	border: none;
+	font-family: "Poppins";
+	font-size: 16px;
+	margin: 40px 0 60px 0;
+}
+.createset--add:hover {
+	background-color: var(--accent);
+	color: var(--primary);
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+.createset--form--lower--import {
+	display: block;
+	background-color: var(--primary);
+	padding: 12px;
+	border-radius: 15px;
+	color: var(--background);
+	transition: all 0.2s ease-in-out;
+	width: 150px;
+	text-align: center;
+	font-size: 1.1rem;
+	border-color: transparent;
+	font-weight: 500;
+}
+.createset--form--lower--import:hover {
+	background-color: var(--accent);
+	cursor: pointer;
+}

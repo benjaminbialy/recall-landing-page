@@ -1,0 +1,42 @@
+.folderpage {
+	max-width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.folderpage--sets {
+	display: flex;
+	flex-wrap: wrap;
+	width: 800px;
+}
+.folderpage--header {
+	display: flex;
+	justify-content: space-between;
+	width: 55vw;
+	margin: 7.5vh 0;
+}
+.folderpage--header--btn {
+	background-color: var(--primary);
+	padding: 8px;
+	border-radius: 20px;
+	text-decoration: none;
+	color: #fff;
+	transition: all 0.2s ease-in-out;
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	border: none;
+	font-family: "Poppins";
+	font-size: 16px;
+}
+.folderpage--header--btn:hover {
+	background-color: var(--accent);
+	color: var(--primary);
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+.folderpage--header--heading {
+	margin: 0;
+	font-size: 30px;
+}

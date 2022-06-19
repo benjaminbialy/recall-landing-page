@@ -1,0 +1,86 @@
+.folder {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20vh;
+}
+.folder--form--heading {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.folder--form--heading--header {
+	display: flex;
+	justify-content: space-between;
+	width: 100vw;
+}
+.folder--form--heading--header--heading {
+	display: flex;
+	margin: 50px;
+	font-size: 30px;
+}
+.folder--form--header--btn,
+.folder--btn {
+	background-color: var(--primary);
+	padding: 10px;
+	border-radius: 20px;
+	text-decoration: none;
+	color: #fff;
+	transition: all 0.2s ease-in-out;
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	border: none;
+	font-family: "Poppins";
+	font-size: 18px;
+	margin: 50px 80px;
+}
+.folder--form--header--btn:hover,
+.folder--btn:hover {
+	background-color: var(--accent);
+	color: var(--primary);
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+.folder--form--header--btn {
+	background-color: var(--accent);
+	color: var(--primary);
+}
+.folder--form--header--btn:hover {
+	background-color: var(--primary);
+	color: #fff;
+}
+.folder--form--titleinput {
+	display: flex;
+	width: calc(100% - 230px);
+	padding: 0;
+	height: 30px;
+	font-size: 24px;
+	line-height: 28px;
+	font-family: "Poppins";
+	color: var(--primary);
+	border-style: none;
+	border-bottom: 2px solid var(--primary);
+	padding-bottom: 1px;
+	background-color: var(--secondarybkg);
+}
+.folder--form--titleinput:focus {
+	outline: none;
+	padding: 0;
+	border-bottom: 3px solid var(--accent);
+}
+.folder--btn {
+	width: 200px;
+	align-self: center;
+}
+.folder--form--checkboxes {
+	background-color: var(--background);
+	box-shadow: 0px 0px 25px 3px var(--secondarybkg);
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	width: 1000px;
+	padding: 50px;
+	border-radius: 50px;
+}

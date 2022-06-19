@@ -1,0 +1,108 @@
+.writetermbox {
+  max-height: 400px;
+  margin: 0px;
+  width: 75%;
+  min-height: 325px;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 20px 2px rgb(218, 216, 216);
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--background);
+}
+.writetermbox--header {
+  min-height: 250px;
+}
+.writetermbox--header--headings {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.writetermbox--header--headings--type,
+.writetermbox--header--headings--number {
+  color: var(--accent);
+  font-size: 20px;
+  margin: 20px;
+}
+.writetermbox--header--content {
+  margin: 0 0px 20px 20px;
+}
+.writetermbox--header--content--description {
+  width: 100%;
+  border-color: transparent;
+  resize: none;
+  box-sizing: border-box;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Poppins";
+  color: var(--primary);
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  overflow-wrap: break-word;
+  min-height: 30px;
+}
+.writetermbox--header--content--description:focus {
+  outline: none;
+}
+.writetermbox--header--content--term {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 24px;
+}
+.writetermbox--answer {
+  min-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.writetermbox--answer--input {
+  display: flex;
+  margin: 40px 0px 40px 20px;
+  width: calc(87.5% - 60px);
+  padding: 0;
+  height: 22px;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "Poppins";
+  color: var(--primary);
+  border-style: none;
+  border-bottom: 2px solid var(--primary);
+  background-color: transparent;
+}
+.writetermbox--answer--input:focus {
+  outline: none;
+  border-bottom: 2px solid var(--accent);
+}
+.writetermbox--answer--next {
+  margin: 0;
+  background-color: var(--primary);
+  padding: 5px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+  width: 110px;
+  height: 50px;
+  text-align: center;
+  border: none;
+  font-family: "Poppins";
+  font-size: 16px;
+}
+.writetermbox--answer--next:hover {
+  background-color: var(--accent);
+  color: var(--primary);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.writetermbox--header--feedback {
+  margin: 0 0 20px 20px;
+}
+.writetermbox--header--feedback div {
+  font-size: 18px;
+}

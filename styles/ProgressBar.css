@@ -1,0 +1,14 @@
+.progressbar {
+	width: 90%;
+	background-color: rgb(238, 238, 238);
+	margin: 3.5% 5%;
+	height: 18px;
+	border-radius: 50px;
+}
+.progressbar--progress {
+	height: 18px;
+	background-color: var(--primary);
+	display: block;
+	border-radius: 50px;
+	transition: all 0.75s ease-in-out;
+}

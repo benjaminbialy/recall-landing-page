@@ -1,0 +1,87 @@
+.createterm {
+	width: 85%;
+	padding: 30px;
+	margin: 15px 0;
+	box-shadow: 0px 0px 20px 2px rgb(218, 216, 216);
+	transition: all 0.4s ease-in-out;
+	display: flex;
+	flex-direction: column;
+	background-color: var(--background);
+	border-radius: 20px;
+}
+.createterm:hover {
+	box-shadow: 0px 0px 25px 3px var(--secondarybkg);
+	transition: all 0.4s ease-in-out;
+}
+.createterm--inputs {
+	display: flex;
+	justify-content: space-between;
+}
+.createterm--inputs--term {
+	display: flex;
+	padding: 0;
+	margin: 45px 0 0 0;
+	font-size: 18px;
+	width: 47.5%;
+	height: 27.5px;
+	line-height: 28px;
+	font-family: "Poppins";
+	color: var(--primary);
+	border-style: none;
+	border-bottom: 2px solid var(--primary);
+	padding-bottom: 1px;
+	background-color: var(--background);
+	outline: none;
+}
+.styled__button {
+	background-color: var(--primary);
+	padding: 12px;
+	border-radius: 20px;
+	text-decoration: none;
+	color: #fff;
+	transition: all 0.2s ease-in-out;
+	width: 250px;
+	text-align: center;
+	border: none;
+	font-family: "Poppins";
+	font-size: 16px;
+	margin: 20px 0;
+}
+.styled__button:hover {
+	background-color: var(--accent);
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+.createterm--heading {
+	display: flex;
+	justify-content: space-between;
+}
+.createterm--delete {
+	background-color: var(--accent);
+	padding: 10px;
+	border-radius: 15px;
+	text-decoration: none;
+	color: var(--background);
+	transition: all 0.3s ease-in-out;
+	width: 150px;
+	text-align: center;
+	border: none;
+	font-family: "Poppins";
+	font-size: 14px;
+	margin: 0;
+	align-self: flex-end;
+	font-weight: 700;
+}
+.createterm--delete:hover {
+	background-color: var(--primary);
+	color: #fff;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+.createterm--number {
+	margin: 0;
+	color: var(--accent);
+	font-size: 20px;
+	font-family: "Poppins";
+	font-weight: 900;
+}

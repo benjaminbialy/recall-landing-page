@@ -1,0 +1,78 @@
+.termcard {
+	width: 85%;
+	padding: 30px;
+	margin: 15px 0;
+	box-shadow: 0px 0px 20px 2px rgb(218, 216, 216);
+	transition: all 0.4s ease-in-out;
+	display: flex;
+	flex-direction: column;
+	height: fit-content;
+	background-color: var(--background);
+	border-radius: 20px;
+}
+.termcard--inputs {
+	display: flex;
+	align-items: top;
+}
+.termcard--inputs--division {
+	width: 2px;
+	background-color: var(--accent);
+	margin-right: 10px;
+}
+.termcard--inputs--term {
+	width: 30%;
+	border-right: 2px solid var(--primary);
+	border-color: transparent var(--primary) transparent transparent;
+	padding-right: 5%;
+}
+.termcard--inputs--definition {
+	width: calc(70% - 160px);
+	margin-right: 160px;
+	border-color: transparent;
+	padding-left: 5%;
+}
+.termcard--inputs--term,
+.termcard--inputs--definition {
+	resize: none;
+	box-sizing: border-box;
+	font-size: 18px;
+	line-height: 24px;
+	font-family: "Poppins";
+	color: var(--primary);
+	background-color: transparent;
+}
+textarea:focus {
+	outline: none;
+}
+.termcard--heading {
+	display: flex;
+	justify-content: space-between;
+}
+.termcard--heading--focus {
+	background-color: var(--accent);
+	padding: 10px;
+	border-radius: 15px;
+	text-decoration: none;
+	color: var(--primary);
+	transition: all 0.2s ease-in-out;
+	width: 140px;
+	text-align: center;
+	border: none;
+	font-family: "Poppins";
+	font-size: 16px;
+	margin: 0 0 15px 0;
+	align-self: flex-end;
+}
+.termcard--heading--focus:hover {
+	background-color: var(--primary);
+	color: #fff;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+.termcard--heading--number {
+	margin: 0;
+	color: var(--accent);
+	font-size: 20px;
+	font-family: "Poppins";
+	font-weight: 900;
+}

@@ -1,0 +1,17 @@
+.testresults {
+	display: flex;
+	flex-direction: column;
+	width: 650px;
+	padding: 15px;
+	margin: 30px 33px 15px 34px;
+	border-radius: 15px;
+}
+.testresults--correctterm,
+.testresults--result {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 900;
+}
+.testresults--correctterm span {
+	color: var(--accent);
+}

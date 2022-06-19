@@ -1,0 +1,106 @@
+.studyset {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20vh;
+}
+.studyset--heading {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 35%;
+	height: 30rem;
+	position: relative;
+}
+.studyset--heading--main {
+	font-size: 2rem;
+	margin: 0;
+}
+.studyset--heading--creator {
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	text-decoration: none;
+	color: inherit;
+}
+.studyset--heading--sub {
+	margin: 0;
+	color: var(--accent);
+	font-weight: 900;
+	font-size: 18px;
+}
+.studyset--header {
+	display: flex;
+	width: 70%;
+	align-self: center;
+	justify-content: space-between;
+	margin: 7.5vh 0;
+	height: 30rem;
+	padding: 50px;
+	border-radius: 30px;
+	background-color: var(--background);
+}
+.studyset--header--options {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 55%;
+}
+.studyset--header--options--heading {
+	margin: 0;
+	margin-left: 10%;
+	font-size: 26px;
+	align-self: flex-start;
+}
+.studyset--sets {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.studyset--subheading {
+	margin: 10vh 15vh 5vh 15vh;
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+}
+.studyset--subheading--heading {
+	font-size: 26px;
+	margin: 0;
+	line-height: 50px;
+}
+.studyset--subheading--edit {
+	display: block;
+	background-color: var(--accent);
+	padding: 10px;
+	border-radius: 15px;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+	width: 120px;
+	text-align: center;
+	border: none;
+	font-family: "Poppins";
+	font-size: 16px;
+	margin: 0;
+	height: 27px;
+	line-height: 27px;
+	color: var(--background);
+}
+.studyset--subheading--edit:hover {
+	background-color: var(--primary);
+	color: #fff;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+.studyset--sets--header {
+	display: flex;
+	margin: 10vh 0 5vh 15vh;
+	flex-direction: column;
+	width: calc(100vw - 15vh);
+}
+.studyset--sets--header--heading {
+	font-size: 26px;
+	width: calc(100% - 15vh);
+	margin: 0;
+}
+.studyset--sets--header--para {
+	margin-bottom: 0;
+}

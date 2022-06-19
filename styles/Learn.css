@@ -1,0 +1,43 @@
+.learn {
+	display: flex;
+	flex-direction: column;
+	max-height: 100vh;
+}
+.learn--header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 15vh;
+	background-color: var(--background);
+	border: 1px solid whitesmoke;
+}
+.learn--header--btn {
+	display: block;
+	background-color: var(--primary);
+	color: #fff;
+	font-weight: 900;
+	font-family: "Poppins";
+	font-size: 16px;
+	padding: 0px;
+	border-radius: 25px;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+	width: 150px;
+	text-align: center;
+	border-color: transparent;
+	height: 45px;
+	line-height: 45px;
+	border: 0;
+}
+.learn--header--btn:hover {
+	background-color: var(--accent);
+	transition: all 0.2s ease-in-out;
+	color: var(--primary);
+	cursor: pointer;
+}
+.learn--question {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 85vh;
+}

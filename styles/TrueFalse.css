@@ -1,0 +1,77 @@
+.truefalse {
+	margin: 4.5% 2.5% 2.5% 2.5%;
+	width: 650px;
+	min-height: 425px;
+	padding: 15px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px 2px rgb(218, 216, 216);
+	transition: all 0.2s ease-in-out;
+	display: flex;
+	flex-direction: column;
+	scroll-margin-top: 45px;
+	background-color: var(--background);
+}
+.truefalse--header {
+	min-height: 350px;
+}
+.truefalse--header--headings {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.truefalse--header--headings--type,
+.truefalse--header--headings--number {
+	color: var(--accent);
+	font-size: 20px;
+	margin: 20px;
+}
+.truefalse--header--content {
+	margin: 0 30px 20px 20px;
+}
+.truefalse--header--content--description {
+	width: calc(100% - 42px);
+	border-color: transparent;
+	resize: none;
+	box-sizing: border-box;
+	font-size: 18px;
+	line-height: 24px;
+	font-family: "Poppins";
+	color: var(--primary);
+	background-color: transparent;
+	margin: 0;
+	padding: 0;
+	height: auto;
+}
+.truefalse--header--content--description:focus {
+	outline: none;
+}
+.truefalse--header--content--term {
+	margin: 0;
+	margin-bottom: 20px;
+	font-size: 18px;
+	line-height: 24px;
+}
+.truefalse--answer {
+	min-height: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.truefalse--answer--label {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 275px;
+	min-height: 45px;
+	line-height: 16px;
+	border-radius: 20px;
+	font-size: 16px;
+	text-align: center;
+	background-color: var(--background);
+	outline: lightgray solid 1.5px;
+	transition: all 0.275s ease-in-out;
+}
+.truefalse--answer--label--radio {
+	width: 0px;
+}

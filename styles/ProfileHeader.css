@@ -1,0 +1,16 @@
+.profileheader {
+	height: 200px;
+	display: flex;
+}
+.profileheader--pic {
+	width: 150px;
+	height: 150px;
+	margin: 25px;
+	border-radius: 50%;
+}
+.profileheader--name {
+	text-align: end;
+	font-size: 32px;
+	height: 32px;
+	margin: 133px 0 0 0;
+}

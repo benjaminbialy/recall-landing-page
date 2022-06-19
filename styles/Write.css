@@ -1,0 +1,124 @@
+.writepage {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.writepage--options {
+	max-height: 90vh;
+	height: calc(90vh - 80px);
+	width: 300px;
+	margin: 5vh 30px 5vh 50px;
+	padding: 40px 2%;
+	background-color: var(--background);
+	display: flex;
+	flex-direction: column;
+}
+.writepage--options--progress {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.writepage--options--progress p {
+	margin: 0;
+}
+.writepage--options--back,
+.writepage--options--btn {
+	display: block;
+	background-color: var(--primary);
+	color: #fff;
+	font-weight: 900;
+	font-family: "Poppins";
+	font-size: 16px;
+	padding: 10px;
+	border-radius: 25px;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+	width: 150px;
+	text-align: center;
+	border-color: transparent;
+	height: 20px;
+	line-height: 20px;
+	align-self: center;
+	justify-self: flex-end;
+	margin-top: 17.5%;
+}
+.writepage--options--btn {
+	width: 170px;
+	height: 40px;
+	line-height: 16px;
+}
+.writepage--options--back:hover,
+.writepage--options--btn:hover {
+	background-color: var(--accent);
+	transition: all 0.2s ease-in-out;
+	color: var(--primary);
+	cursor: pointer;
+}
+.writepage--question {
+	width: calc(100% - 400px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+	overflow: scroll;
+}
+.writepage--question--link {
+	text-decoration: none;
+	color: var(--primary);
+	text-align: center;
+	margin: 8px 0;
+}
+.writepage--question--link:hover {
+	cursor: pointer;
+}
+.writepage--question--heading {
+	font-size: 20px;
+	margin: 8px 0;
+}
+.writepage--question--comment {
+	margin: 8px 0 50px 0;
+	font-size: 18px;
+}
+.writepage--question--card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--background);
+	padding: 30px;
+	border-radius: 25px;
+	width: 550px;
+	height: 350px;
+}
+.writepage--summary--heading {
+	font-size: 24px;
+	margin: 8px 0;
+	justify-self: flex-start;
+}
+.writepage--summary--comment {
+	margin: 8px 0 50px 0;
+	font-size: 18px;
+}
+.writepage--summary--next {
+	display: block;
+	background-color: var(--accent);
+	padding: 12px;
+	border-radius: 25px;
+	text-decoration: none;
+	color: var(--primary);
+	transition: all 0.2s ease-in-out;
+	width: 140px;
+	text-align: center;
+	border-color: transparent;
+	font-family: "Poppins";
+	font-weight: 900;
+	font-size: 16px;
+	line-height: 16px;
+	cursor: pointer;
+}
+.writepage--summary--next:hover {
+	background-color: var(--primary);
+	transition: all 0.2s ease-in-out;
+	color: var(--background);
+}
