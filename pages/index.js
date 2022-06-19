@@ -80,7 +80,9 @@ export default function LandingPage() {
           Active recall is the practise of retrieving information from your
           brain to answer questions. To make questions or tests for yourself it
           either takes hours or costs you an arm and a leg.{" "}
-          <span className="accent--span">We're here to solve just that.</span>
+          <span className="accent--span">
+            We&#8217;re here to solve just that.
+          </span>
         </p>
         <p>
           How? By doing{" "}
@@ -147,9 +149,9 @@ export default function LandingPage() {
             <div className="feature--desc">
               <h3>Write mode</h3>
               <p>
-                Cover every single term in your set and only finish once you've
-                answered every term correctly. Get feedback on every wrong
-                answer.
+                Cover every single term in your set and only finish once
+                you&#8217;ve answered every term correctly. Get feedback on
+                every wrong answer.
               </p>
             </div>
           </div>
@@ -192,13 +194,13 @@ export default function LandingPage() {
         </button>{" "}
       </div>
       <div className="founders--note">
-        <h3>Founder's Note</h3>
+        <h3>Founder&#8217;s Note</h3>
         <p>
-          We’ve all been told to study smarter, not harder. But do any of us
-          really know what that means?{" "}
-          <span className="accent--span">I know I didn’t until</span> I started
-          using active recall, the study technique which aims to retrieve
-          information from the brain, instead of cramming it in.
+          We&#8217;ve all been told to study smarter, not harder. But do any of
+          us really know what that means?{" "}
+          <span className="accent--span">I know I didn&#8217;t until</span> I
+          started using active recall, the study technique which aims to
+          retrieve information from the brain, instead of cramming it in.
         </p>
         <p>
           The current state of studying with active recall is a{" "}
@@ -207,7 +209,7 @@ export default function LandingPage() {
         <ul>
           <li>Making tests or questions takes forever</li>
           <li>Flashcards get lost</li>
-          <li>You can't easily share them</li>
+          <li>You can&#8217;t easily share them</li>
           <li>Existing online tools are of poor quality and cost a fortune</li>
         </ul>
         <p>
@@ -225,7 +227,7 @@ export default function LandingPage() {
           <a className="contact--link" href="mailto: benjamincbialy@gmail.com">
             contact me
           </a>
-          , personally, with any questions you've got.
+          , personally, with any questions you&#8217;ve got.
         </p>
         <p>Enjoy recall!</p>
         <div className="founder--card">
